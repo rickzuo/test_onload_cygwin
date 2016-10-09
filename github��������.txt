@@ -1,0 +1,15 @@
+
+1.在github创建一个空的创库
+	不要勾选这个Initialize this repository with a README
+	复制ssh命令
+
+1.进入你要上传的目录
+	
+	1.git init 初始化仓库
+	2.git remote  add origin git@github.com:zuoakang/test_cygwin.git 绑定刚才创建的仓库
+	3.git add 文件名 带后缀(test.txt)
+	4.git commit -m "msg log"
+	
+2.如果修改了文件
+	1.git commit -a -m"update new File"
+	2.git push 更新同步
